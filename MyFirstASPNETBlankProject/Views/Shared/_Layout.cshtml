@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <title>Prof. Ganderson Fan Site</title>
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-
-@RenderBody()
-
+    <h1>Prof. Ganerson Fan Club</h1>
+    <h3 style="color: blue;">The one, the only, Mr. Greg Anderson</h3>
+    <img src="~/img/Ganderson.jpg" height="400" alt="Greg Anderson photo" id="imgGanderson"/>
+    <div>
+        @RenderBody()
+    </div>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/site.js"></script>
 </body>
 </html>
