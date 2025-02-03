@@ -1,0 +1,46 @@
+@model TModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prof. Ganderson Fan Site</title>
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+<h1>Prof. Ganerson Fan Club</h1>
+<h3 style="color: blue;">The one, the only, Mr. Greg Anderson</h3>
+<img src="Ganderson.jpg" height="400" alt="Greg Anderson photo" id="imgGanderson"/>
+<p>Prof. Anderson (a.k.a. "Prof Ganderson") Is a Professor in the Information Systems Department</p>
+<p>Pop Quiz: We love him because?</p>
+<ul>
+    <li>A: The flowing locks he had when he was growing up</li>
+    <li>B: He can pound a pound of bacon</li>
+    <li>C: His exams are so easy?</li>
+    <li>D: He is just an awesome person who cares about everyone around him </li>
+    <li>E: All of the above</li>
+</ul>
+<h2>Send Fan Mail Here: </h2>
+<form>
+    <label>From:</label>
+    <input id="txtFrom" />
+    <br />
+    <label>Subject:</label>
+    <input id="txtSubject" />
+    <br />
+    <label>Message:</label>
+    <br />
+    <textarea rows="4" id="txtMessage"></textarea>
+    <br />
+    <input type="button" value="Send Message" id="btnSubmit" />
+</form>
+<!-- Link jquery 1st -->
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
